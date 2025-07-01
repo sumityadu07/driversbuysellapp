@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+
+class FastagPage extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('FASTag Page'),
+      ),
+      body: Center(
+        child: Text("Comming Soon", textAlign: TextAlign.center, style: TextStyle(color: Colors.green, fontSize: 100),),
+    )
+    );
+  }
+
+}
